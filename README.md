@@ -21,6 +21,7 @@
 - 在Actions页面中选择`Build OpenWrt`选项。
 - 点那个`Run workflow`按钮。
 - 编译成功后，在您编译的工作流最下面的`Artifacts`和`Release`就可以看到打包好的固件，点后面的下载即可。
+  - TIPS: 上传到`Release`的功能需要在build-opewrt.yml中将环境变量`UPLOAD_RELEASE`设置为`true`，但是目前运行会报错，所以我关了它。
 
 - Fork this repository to your own repository.
 - Set up a development environment by yourself and create your own `.config` file.
