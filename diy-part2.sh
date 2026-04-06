@@ -6,9 +6,11 @@
 # See /LICENSE for more information.
 #
 # https://github.com/P3TERX/Actions-OpenWrt
+
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
-#
+# 文件名：diy-part2.sh
+# 描述：OpenWrt DIY脚本第二部分（更新feeds之后）
 
 # 设置默认的 Lan 口 IP地址
 # sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
