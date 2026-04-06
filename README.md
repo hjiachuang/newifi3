@@ -20,7 +20,7 @@
 - 根据自己的需要修改脚本: `diy-part1.sh`和`diy-part2.sh`。（可选）
 - 在Actions页面中选择`Build OpenWrt`选项。
 - 点那个`Run workflow`按钮。
-- 编译成功后，在您编译的工作流最下面的`Artifacts`就可以看到打包好的固件，点后面的下载即可。
+- 编译成功后，在您编译的工作流最下面的`Artifacts`和`Release`就可以看到打包好的固件，点后面的下载即可。
 
 - Fork this repository to your own repository.
 - Set up a development environment by yourself and create your own `.config` file.
