@@ -13,7 +13,7 @@
 # 描述：OpenWrt DIY脚本第二部分（更新feeds之后）
 
 # 设置默认的 Lan 口 IP地址
-# sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
 
 # 修改默认的主题
 sed -i 's/luci-theme-bootstrap/luci-theme-argone/g' feeds/luci/collections/luci/Makefile
